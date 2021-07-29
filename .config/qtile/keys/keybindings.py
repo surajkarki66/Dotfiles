@@ -95,8 +95,8 @@ class Keybindings:
                 "discord"
             ), desc="Open Discord"),
             Key([self.mod, self.alt], "n", lazy.spawn(
-                "nautilus"
-            ), desc="Open Nautilus file browser"),
+                "pcmanfm"
+            ), desc="Open PCManFM file browser"),
             Key([self.mod, self.alt], "i", lazy.spawn(
                 "insomnia"
             ), desc="Open Insomnia"),
