@@ -1,0 +1,137 @@
+--------------------------------------------
+   Hyprland Crash Report
+--------------------------------------------
+This was an accident, I swear!
+
+Hyprland received signal 6 (Aborted)
+
+Version: 1b48642fd15c433c53876f1b933dcd46265caf8f
+Tag: v0.30.0
+
+System info:
+	System name: Linux
+	Node name: archlinux
+	Release: 6.5.9-arch2-1
+	Version: #1 SMP PREEMPT_DYNAMIC Thu, 26 Oct 2023 00:52:20 +0000
+
+GPU:
+	00:02.0 VGA compatible controller [0300]: Intel Corporation HD Graphics 620 [8086:5916] (rev 02) (prog-if 00 [VGA controller])
+
+
+os-release:
+	NAME="Arch Linux"
+	PRETTY_NAME="Arch Linux"
+	ID=arch
+	BUILD_ID=rolling
+	ANSI_COLOR="38;2;23;147;209"
+	HOME_URL="https://archlinux.org/"
+	DOCUMENTATION_URL="https://wiki.archlinux.org/"
+	SUPPORT_URL="https://bbs.archlinux.org/"
+	BUG_REPORT_URL="https://bugs.archlinux.org/"
+	PRIVACY_POLICY_URL="https://terms.archlinux.org/docs/privacy-policy/"
+	LOGO=archlinux-logo
+	
+
+
+Backtrace:
+	#0 | Hyprland(_Z12getBacktracev+0x62) [0x55d2fe12af92]
+		??
+		??:0
+	#1 | Hyprland(_ZN13CrashReporter18createAndSaveCrashEi+0x51e) [0x55d2fe1015fe]
+		??
+		??:0
+	#2 | Hyprland(_Z25handleUnrecoverableSignali+0x47) [0x55d2fe086047]
+		??
+		??:0
+	#3 | /usr/lib/libc.so.6(+0x3e710) [0x7efeb0f6f710]
+		??
+		??:0
+	#4 | /usr/lib/libc.so.6(+0x8e83c) [0x7efeb0fbf83c]
+		??
+		??:0
+	#5 | /usr/lib/libc.so.6(raise+0x18) [0x7efeb0f6f668]
+		??
+		??:0
+	#6 | /usr/lib/libc.so.6(abort+0xd7) [0x7efeb0f574b8]
+		??
+		??:0
+	#7 | /usr/lib/libc.so.6(+0x27390) [0x7efeb0f58390]
+		??
+		??:0
+	#8 | /usr/lib/libc.so.6(+0x987b7) [0x7efeb0fc97b7]
+		??
+		??:0
+	#9 | /usr/lib/libc.so.6(+0x9aa84) [0x7efeb0fcba84]
+		??
+		??:0
+	#10 | /usr/lib/libc.so.6(free+0x73) [0x7efeb0fce353]
+		??
+		??:0
+	#11 | Hyprland(_ZN11CCompositorD1Ev+0x131e) [0x55d2fe08bb2e]
+		??
+		??:0
+	#12 | Hyprland(main+0x8fd) [0x55d2fe070ecd]
+		??
+		??:0
+	#13 | /usr/lib/libc.so.6(+0x27cd0) [0x7efeb0f58cd0]
+		??
+		??:0
+	#14 | /usr/lib/libc.so.6(__libc_start_main+0x8a) [0x7efeb0f58d8a]
+		??
+		??:0
+	#15 | Hyprland(_start+0x25) [0x55d2fe082a45]
+		??
+		??:0
+
+
+Log tail:
+[LOG] Callback 55d301329a98 -> 55d301329a90, textInput removed.
+[LOG] Callback 55d301329a30 -> 55d301329a28, textInput removed.
+[LOG] Callback 55d301333058 -> 55d301333050, textInput removed.
+[LOG] Callback 55d301332ff0 -> 55d301332fe8, textInput removed.
+[LOG] Callback 55d301332f88 -> 55d301332f80, textInput removed.
+[LOG] Callback 55d301332f20 -> 55d301332f18, textInput removed.
+[LOG] Callback 55d30131b6e8 -> 55d30131b6e0, textInput removed.
+[LOG] Callback 55d30131b680 -> 55d30131b678, textInput removed.
+[LOG] Callback 55d30131b618 -> 55d30131b610, textInput removed.
+[LOG] Callback 55d30131b5b0 -> 55d30131b5a8, textInput removed.
+[LOG] Callback 55d300985428 -> 55d300985420, textInput removed.
+[LOG] Callback 55d3009853c0 -> 55d3009853b8, textInput removed.
+[LOG] Callback 55d300985358 -> 55d300985350, textInput removed.
+[LOG] Callback 55d3009852f0 -> 55d3009852e8, textInput removed.
+[LOG] Callback 55d301339968 -> 55d301339960, textInput removed.
+[LOG] Callback 55d301339900 -> 55d3013398f8, textInput removed.
+[LOG] Callback 55d301339898 -> 55d301339890, textInput removed.
+[LOG] Callback 55d301339830 -> 55d301339828, textInput removed.
+[LOG] Callback 55d30055dc50 -> 55d30055dc48, SwitchDevice removed.
+[LOG] Callback 55d30055dbe8 -> 55d30055dbe0, SwitchDevice removed.
+[LOG] Callback 55d300672738 -> 55d300672730, Mouse removed.
+[LOG] Callback 55d2ffe3ffa8 -> 55d2ffe3ffa0, Mouse removed.
+[LOG] Callback 55d300803d48 -> 55d300803d40, Keyboard removed.
+[LOG] Callback 55d300803ce0 -> 55d300803cd8, Keyboard removed.
+[LOG] Callback 55d300803c78 -> 55d300803c70, Keyboard removed.
+[LOG] Callback 55d300803c10 -> 55d300803c08, Keyboard removed.
+[LOG] Callback 55d3007edca8 -> 55d3007edca0, Keyboard removed.
+[LOG] Callback 55d3007edc40 -> 55d3007edc38, Keyboard removed.
+[LOG] Callback 55d3007edbd8 -> 55d3007edbd0, Keyboard removed.
+[LOG] Callback 55d3007edb70 -> 55d3007edb68, Keyboard removed.
+[LOG] Callback 55d3007a43d8 -> 55d3007a43d0, Keyboard removed.
+[LOG] Callback 55d3007a4370 -> 55d3007a4368, Keyboard removed.
+[LOG] Callback 55d3007a4308 -> 55d3007a4300, Keyboard removed.
+[LOG] Callback 55d3007a42a0 -> 55d3007a4298, Keyboard removed.
+[LOG] Callback 55d3007bf908 -> 55d3007bf900, Keyboard removed.
+[LOG] Callback 55d3007bf8a0 -> 55d3007bf898, Keyboard removed.
+[LOG] Callback 55d3007bf838 -> 55d3007bf830, Keyboard removed.
+[LOG] Callback 55d3007bf7d0 -> 55d3007bf7c8, Keyboard removed.
+[LOG] Callback 55d3008d4dc8 -> 55d3008d4dc0, Keyboard removed.
+[LOG] Callback 55d3008d4d60 -> 55d3008d4d58, Keyboard removed.
+[LOG] Callback 55d3008d4cf8 -> 55d3008d4cf0, Keyboard removed.
+[LOG] Callback 55d3008d4c90 -> 55d3008d4c88, Keyboard removed.
+[LOG] Callback 55d300922038 -> 55d300922030, Keyboard removed.
+[LOG] Callback 55d300921fd0 -> 55d300921fc8, Keyboard removed.
+[LOG] Callback 55d300921f68 -> 55d300921f60, Keyboard removed.
+[LOG] Callback 55d300921f00 -> 55d300921ef8, Keyboard removed.
+[LOG] Callback 55d30095c538 -> 55d30095c530, Keyboard removed.
+[LOG] Callback 55d30095c4d0 -> 55d30095c4c8, Keyboard removed.
+[LOG] Callback 55d30095c468 -> 55d30095c460, Keyboard removed.
+[LOG] Callback 55d30095c400 -> 55d30095c3f8, Keyboard removed.
