@@ -1,16 +1,3 @@
-ls
-nano config 
-clear
-cd ..
-ls
-cd hypr/
-ls
-cat hyprland.conf 
-lslsls
-clear
-Hyprland
-clear
-Hyprland
 pcmanfm --desktop.
 pcmanfm --desktop
 reboot
@@ -498,3 +485,16 @@ systemctl --user import-environment QT_QPA_PLATFORMTHEME
 dbus-update-activation-environment --systemd --all
 chmod +x hyprland_portal.sh 
 clear
+config add .config
+config commit -m "added new config for hyprland"
+clea
+clear
+config push
+config push --set-upstream origin master
+ls
+ls -al
+config add .bash_history .bash_logout .bash_profile .bashrc .gitconfig .gnupg/ .hyprland/ 
+config commit -m "added other configs"
+config push
+sudo pacman -Rns code
+paru -S  visual-studio-code-bin
