@@ -1,3 +1,6 @@
 [user]
 	email = suraj.karki500@protonmail.com
 	name = surajkarki
+[safe]
+	directory = /opt/flutter
+	directory = /opt/flutter
